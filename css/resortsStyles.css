@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", "Courier New", Courier, monospace;
+}
+
+body p{
+    color: white;
+}
+
+body h1{
+    color: white;
+}
+
+body h3{
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin: 15px;
+}
+
+.resorts img{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    filter: blur(4px);
+}
+
+.resorts h1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 10rem;
+    z-index: 1;
+    text-shadow: 0 0 5px black;
+}
+
+.resorts p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 15rem;
+    text-shadow: 0 0 5px black;
+}
+
+/* marine resort */
+
+.marine img{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    top: 35rem;
+    filter: blur(4px);
+}
+
+.marine h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 40rem;
+    z-index: 1;
+    text-shadow: 0 0 5px black;
+}
+
+.marine p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 42.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-shadow: 0 0 5px black;
+}
+
+/* city resort */
+
+.city img{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    top: 65rem;
+    filter: blur(4px);
+}
+
+.city h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 67.5rem;
+    z-index: 1;
+    text-shadow: 0 0 5px black;
+}
+
+.city p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 70rem;
+    z-index: 1;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-shadow: 0 0 5px black;
+}
+
+/* snow resort */
+
+.snow img{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    top: 95rem;
+    filter: blur(4px);
+}
+
+.snow h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 94rem;
+    z-index: 1;
+    text-shadow: 0 0 5px black;
+}
+
+.snow p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 96.5rem;
+    z-index: 1;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-shadow: 0 0 5px black;
+}
+
+/* mtn resort */
+
+.mtn img{
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    top: 125rem;
+    filter: blur(4px);
+}
+
+.mtn h3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 120rem;
+    z-index: 1;
+    text-shadow: 0 0 5px black;
+}
+
+.mtn p{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 122.5rem;
+    z-index: 1;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-shadow: 0 0 5px black;
+}
