@@ -7,13 +7,31 @@
   font-family: "Nunito", "Courier New", Courier, monospace;
 }
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(2px);
 }
 
-.navbar a{
-    text-decoration: none;
-    margin: 15px;
+.main {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+
+.main a {
+  text-decoration: none;
+  margin: 15px;
+}
+
+.main .col1 {
+  width: 50%;
+}
+
+.main .col2 a {
+  display: flex;
+  font-size: 36px;
+  margin: 5rem;
 }
