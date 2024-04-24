@@ -23,6 +23,8 @@ body h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: 1rem;
 }
 
 .navbar a{
@@ -30,8 +32,12 @@ body h3{
     margin: 15px;
 }
 
+.resorts{
+    display: flex;
+    flex-direction: column;
+}
+
 .resorts img{
-    position: absolute;
     width: 100%;
     height: 50vh;
     object-fit: cover;
@@ -54,20 +60,13 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 15rem;
     text-shadow: 0 0 5px black;
+    z-index: 1;
+    margin: -5rem 10rem 0 10rem;
+    top: -10rem;
 }
 
 /* marine resort */
-
-.marine img{
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    top: 35rem;
-    filter: blur(4px);
-}
 
 .marine h3{
     position: relative;
@@ -75,9 +74,9 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 40rem;
     z-index: 1;
     text-shadow: 0 0 5px black;
+    top: 10rem;
 }
 
 .marine p{
@@ -86,22 +85,12 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 42.5rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin: -5rem 10rem 0 10rem;
     text-shadow: 0 0 5px black;
+    z-index: 1;
 }
 
 /* city resort */
-
-.city img{
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    top: 65rem;
-    filter: blur(4px);
-}
 
 .city h3{
     position: relative;
@@ -109,9 +98,9 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 67.5rem;
     z-index: 1;
     text-shadow: 0 0 5px black;
+    top: 10rem;
 }
 
 .city p{
@@ -120,23 +109,12 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 70rem;
     z-index: 1;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin: -5rem 10rem 0 10rem;
     text-shadow: 0 0 5px black;
 }
 
 /* snow resort */
-
-.snow img{
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    top: 95rem;
-    filter: blur(4px);
-}
 
 .snow h3{
     position: relative;
@@ -144,9 +122,9 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 94rem;
     z-index: 1;
     text-shadow: 0 0 5px black;
+    top: 10rem;
 }
 
 .snow p{
@@ -155,23 +133,12 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 96.5rem;
     z-index: 1;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin: -5rem 10rem 0 10rem;
     text-shadow: 0 0 5px black;
 }
 
 /* mtn resort */
-
-.mtn img{
-    position: absolute;
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    top: 125rem;
-    filter: blur(4px);
-}
 
 .mtn h3{
     position: relative;
@@ -179,9 +146,9 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 120rem;
     z-index: 1;
     text-shadow: 0 0 5px black;
+    top: 10rem;
 }
 
 .mtn p{
@@ -190,9 +157,7 @@ body h3{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 122.5rem;
     z-index: 1;
-    margin-left: 10rem;
-    margin-right: 10rem;
     text-shadow: 0 0 5px black;
+    margin: -5rem 10rem 0 10rem;
 }
