@@ -24,10 +24,21 @@ img {
 .main a {
   text-decoration: none;
   margin: 15px;
+  color: antiquewhite;
+  text-shadow: 0 0 5px black;
+}
+
+.main .col2 a:hover{
+  transition: color 0.3s ease;
+  color: aquamarine;
 }
 
 .main .col1 {
   width: 50%;
+}
+
+.main .col2 {
+  margin-top: 15rem;
 }
 
 .main .col2 a {
