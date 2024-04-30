@@ -21,6 +21,8 @@ img {
   z-index: 1;
 }
 
+
+
 .main a {
   text-decoration: none;
   margin: 15px;
@@ -35,6 +37,22 @@ img {
 
 .main .col1 {
   width: 50%;
+}
+
+.main .col1 p{
+  text-decoration: none;
+  margin: 15px;
+  color: antiquewhite;
+  text-shadow: 0 0 5px black;
+  padding-top: 10rem;
+  padding-bottom: 15rem;
+  padding-left: 1rem;
+}
+
+.main .col1 img{
+  width: 50%;
+  height: auto;
+  position: relative;  
 }
 
 .main .col2 {
